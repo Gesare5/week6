@@ -63,7 +63,7 @@ body {
   flex-direction: column;
   background-color: rgb(88, 207, 216);
   position: fixed;
-  right: 100px;
+  right: 0px;
   top: 100px;
 }
 

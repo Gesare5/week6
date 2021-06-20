@@ -38,7 +38,7 @@ function Notes() {
         <div>
             <form className="new_note" onSubmit={addNote}>
                 <input type="text" name="title" id="new_note" placeholder="Title" onChange={handleInput} />
-                <textarea name="content" cols="50" rows="20" placeholder="Content" onChange={handleInput}></textarea>
+                <textarea name="content" cols="30" rows="15" placeholder="Content" onChange={handleInput}></textarea>
                 <input type="submit" value="Add New Note" />
             </form>
             <div>
